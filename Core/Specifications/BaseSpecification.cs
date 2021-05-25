@@ -9,7 +9,6 @@ namespace Core.Specifications
         public BaseSpecifcation()
         {
         }
-
         public BaseSpecifcation(Expression<Func<T, bool>> criteria)
         {
             Criteria = criteria;
